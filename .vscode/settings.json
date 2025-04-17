@@ -1,0 +1,14 @@
+{
+    "highlight.regexes": {
+        "({|}|;)(\r)": [
+            {
+                "color": "#343434"
+            }
+        ]
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "c": "clear && cd $dir && gcc -w $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt && rm $fileNameWithoutExt",
+    }
+}
